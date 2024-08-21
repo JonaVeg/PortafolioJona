@@ -1,66 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>JonaLogic</title>
-  <link rel="icon" href="imagenes/loga.ico" type="image/x-icon">
-
-  <meta charset="UTF-8">
-  <meta name="google-site-verification" content="WCIaxnkbGDUqo5LA8n0ifDrh7yK4bH3MRCZCr8XmOiE" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - JonaLogic</title>
+    <link rel="icon" href="imagenes/loga.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Styles/portafolio.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
-  <style>
-    .navbar {
-      background-color: #343a40;
-    }
-
-    .navbar-brand {
-      color: #f8f9fa;
-      font-size: 1.5rem;
-      font-weight: bold;
-    }
-
-    .navbar-nav .nav-link {
-      color: #f8f9fa;
-      font-size: 1.1rem;
-      transition: color 0.3s;
-    }
-
-    .navbar-nav .nav-link:hover {
-      color: #17a2b8;
-    }
-
-  </style>
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand text-capitalize" href="index.html">JonaLogic</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center text-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portafolio.html">Portafolio</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand text-capitalize" href="index.html">JonaLogic</a>
-        
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center text-center" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portafolio.html">Portafolio</a>
-            </li>
-          </ul>
+    <div class="container my-5">
+        <h1 class="text-center">PORTAFOLIO</h1>
+        <h2 class="text-center text-muted">Páginas Web</h2>
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card project-card mb-4">
+                    <img src="imagenes/Viaja.png" class="card-img-top" alt="Viaja Con Amigos">
+                    <div class="card-body">
+                        <h5 class="card-title">Aplicación web "Viaja Con Amigos"</h5>
+                        <p class="card-text">Página web interactiva que permite generar tablas de multiplicar.</p>
+                        <p><strong>Tecnologías:</strong> Dart, Flutter, Firebase, Android Studio</p>
+                        <a href="https://helpful-gaufre-b11445.netlify.app/" target="_blank" rel="noopener noreferrer"class="btn btn-primary">Visita la Página completa</a>
+                        <br>
+                        <button type="button" data-toggle="modal" data-target="#primermodal" class="btn btn-secondary mt-3">Leer más</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card project-card mb-4">
+                    <img src="imagenes/Pagina.PNG" class="card-img-top" alt="Panther Shop">
+                    <div class="card-body">
+                        <h5 class="card-title">Página Panther Shop</h5>
+                        <p class="card-text">Tienda en línea que vende artículos deportivos.</p>
+                        <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript, Bootstrap, PHP, MySQL</p>
+                        <a href="https://65a486221e60c1dea7297b3b--creative-biscuit-a0a6a0.netlify.app/" class="btn btn-primary">Visita la Página completa</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card project-card mb-4">
+                    <img src="imagenes/Evrepa.png " class="card-img-top" alt="EVRepairs">
+                    <div class="card-body">
+                        <h5 class="card-title">Página EVRepairs</h5>
+                        <p class="card-text">Centro de confianza para la reparación de dispositivos móviles.</p>
+                        <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript, Bootstrap</p>
+                        <a href="https://dashing-beignet-f26b23.netlify.app/" class="btn btn-primary">Visita la Página completa</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card project-card mb-4">
+                    <img src="imagenes/JVC.png" class="card-img-top" alt="Cuarto Proyecto">
+                    <div class="card-body">
+                        <h5 class="card-title">Pagina JVAccesoVIP</h5>
+                        <p class="card-text">Breve descripción del cuarto proyecto.</p>
+                        <p><strong>Tecnologías:</strong> Listado de tecnologías usadas</p>
+                        <a href="https://rad-llama-89528e.netlify.app/" class="btn btn-primary">Visita la Página completa</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+<!-- Modales -->
+<div class="modal fade" id="primermodal" tabindex="-1" aria-labelledby="primermodalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="primermodalLabel">Aplicacion web "Viaja Con Amigos"</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <!-- Contenido del modal -->
+              <p>Aplicacion web "Viaja Con Amigos"</p>
+              <h5>El proyecto es una página web interactiva que permite a los usuarios generar tablas de multiplicar de un número específico. 
+                El tipo de software es una aplicación web basada en HTML, CSS y JavaScript. 
+                El propósito de esta aplicación es brindar a los usuarios una manera sencilla y visual de generar y ver 
+                tablas de multiplicar de un número que pueden ingresar en un campo de entrada.</h5>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<!--Fin de modales-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<!-- Segunda seccion de portafolio-->
+<section id="portfolio" class="container mt-5">
+  <h2 class="text-center mb-4" style="font-family: Arial, sans-serif; color: #333; font-weight: bold; text-transform: uppercase;">-Certificados-</h2>
+<br>
+<hr>
+
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="imagenes/Jonathan Vega.jpg" class="card-img-top" alt="Proyecto 4" data-toggle="modal" data-target="#modal4">
+        <div class="card-body">
+          <h5 class="card-title">Certificado de Develoteca</h5>
+          <p class="card-text">
+            Este certificado acredita que he completado el curso <mark>"Construye páginas HTML usando Bootstrap"</mark> de Developeca. 
+            El curso me enseñó los fundamentos de HTML y Bootstrap, y me capacitó para usar Bootstrap para crear sitios web atractivos y funcionales.
+          </p>
+          
+          <div class="card-text">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><strong>Curso:</strong> Construye páginas HTML usando Bootstrap</li>
+              <li class="list-group-item"><strong>Institución:</strong> Develoteca</li>
+              <li class="list-group-item"><strong>Fecha de finalización:</strong> 18/08/2023</li>
+              <li class="list-group-item"><strong>Habilidades adquiridas:</strong></li>
+                <ol>
+                  <ul>Fundamentos de HTML</ul>
+                  <ul>Uso de Bootstrap para crear sitios web</ul>
+                  <ul>Diseño web</ul>
+                  <ul>Desarrollo web</ul>
+              </ol>           
+            </ul>
+          </div>
+              <br>
+
+          <p style="text-align: center;">
+            <a href="https://docs.google.com/presentation/d/18caOElu8U0bDkGSlt1xWqooNWA7_FohXMG8obvMuN00/edit#slide=id.p" 
+            style="color: #007bff; text-decoration: none; font-weight: bold;">Ver Foto</a>
+          </p>
+          
         </div>
       </div>
-    </nav>
-  </header>
+    </div>
 
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="imagenes/certif.jpg" class="card-img-top" alt="Proyecto 5" data-toggle="modal" data-target="#modal5">
+        <div class="card-body">
+          <h5 class="card-title">Certificado de mecanografía</h5>
+          <div class="card-text" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 1.6;">
+            <p>
+              Este certificado acredita que he completado una prueba de mecanografía en Ratatype, alcanzando una velocidad de 28 ppm (palabras por minuto) con una precisión del 97,2%. La prueba se realizó en inglés con un diseño de teclado QWERTY.
+            </p>
+            <div class="details">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><strong>Prueba:</strong> Test de mecanografía básica</li>
+                <li class="list-group-item"><strong>Institución:</strong> Ratatype</li>
+                <li class="list-group-item"><strong>Fecha de realización:</strong> 20 de octubre de 2023</li>
+                <li class="list-group-item"><strong>Velocidad:</strong> 28 ppm</li>
+                <li class="list-group-item"><strong>Precisión:</strong> 97,2%</li>
+                <li class="list-group-item"><strong>Idioma:</strong> Inglés</li>
+                <li class="list-group-item"><strong>Diseño de teclado:</strong> QWERTY</li>
+              </ul>
+            </div>
+          </div>
+          <br>
+          <p style="text-align: center;"><a href="https://www.ratatype.es/u6492320/certificate/en_new/"
+            style="color: #007bff; text-decoration: none; font-weight: bold;">Visíta la Página completa</a></p>
+          
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="#" class="card-img-top" alt="Proyecto 6" data-toggle="modal" data-target="#modal6">
+        <div class="card-body">
+          <h5 class="card-title">Certificado </h5>
+          <p class="card-text"> </p>
+            <p><a href="#">Visíta la Página completa</a></p>
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Modales para las imágenes 2parte -->
+<div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modal4Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="imagenes/Jonathan Vega.jpg" class="img-fluid" alt="Proyecto 4">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="modal5Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="imagenes/certif.jpg" class="img-fluid" alt="Proyecto 5">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="modal6Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="#" class="img-fluid" alt="Proyecto 6">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+    
 <section id="portfolio" class="container mt-5">
   <h2 class="text-center mb-4" style="color: #333; font-family: 'Arial', sans-serif; font-weight: bold; text-transform: uppercase;">Portafolio</h2><br><br><br>
   <h3 class="text-center mb-4" style="color: #555; font-family: 'Arial', sans-serif; font-weight: bold;">Páginas Web</h3>
@@ -546,6 +741,19 @@
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4675509302516533"
      crossorigin="anonymous"></script>
+
+
+
+
+    <footer class="bg-dark text-white text-center py-4">
+        <p>©2024 Portafolio Jonathan Vega</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
 </html>

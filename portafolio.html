@@ -33,9 +33,31 @@
         </nav>
     </header>
 
+    <section id="blog-destacado" class="container my-5">
+      <h2 class="text-center">Últimas Noticias</h2>
+      <div class="row">
+          <div class="col-md-4">
+              <div class="card">
+                  <img src="imagenes/logo 6.PNG" class="card-img-top" alt="Título de la entrada">
+                  <div class="card-body">
+                      <h5 class="card-title">Título de la Entrada</h5>
+                      <p class="card-text">Resumen breve de la entrada...</p>
+                      <a href="post.html" class="btn btn-primary">Leer más</a>
+                  </div>
+              </div>
+          </div>
+          <!-- Repite para más entradas -->
+      </div>
+  </section>
+  
     <div class="container my-5">
         <h1 class="text-center">PORTAFOLIO</h1>
         <h2 class="text-center text-muted">Páginas Web</h2>
+
+
+        
+        
+
 
         <div class="row">
             <div class="col-md-3">
@@ -45,7 +67,7 @@
                         <h5 class="card-title">Aplicación web "Viaja Con Amigos"</h5>
                         <p class="card-text">Página web interactiva que permite generar tablas de multiplicar.</p>
                         <p><strong>Tecnologías:</strong> Dart, Flutter, Firebase, Android Studio</p>
-                        <a href="https://helpful-gaufre-b11445.netlify.app/" target="_blank" rel="noopener noreferrer"class="btn btn-primary">Visita la Página completa</a>
+                        <a href="https://helpful-gaufre-b11445.netlify.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Visita la Página completa</a>
                         <br>
                         <button type="button" data-toggle="modal" data-target="#primermodal" class="btn btn-secondary mt-3">Leer más</button>
                     </div>
@@ -58,7 +80,9 @@
                         <h5 class="card-title">Página Panther Shop</h5>
                         <p class="card-text">Tienda en línea que vende artículos deportivos.</p>
                         <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript, Bootstrap, PHP, MySQL</p>
-                        <a href="https://65a486221e60c1dea7297b3b--creative-biscuit-a0a6a0.netlify.app/" class="btn btn-primary">Visita la Página completa</a>
+                        <a href="https://65a486221e60c1dea7297b3b--creative-biscuit-a0a6a0.netlify.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Visita la Página completa</a>
+                        <br>
+                        <button type="button" data-toggle="modal" data-target="#segundomodal" class="btn btn-secondary mt-3">Leer más</button>
                     </div>
                 </div>
             </div>
@@ -69,7 +93,7 @@
                         <h5 class="card-title">Página EVRepairs</h5>
                         <p class="card-text">Centro de confianza para la reparación de dispositivos móviles.</p>
                         <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript, Bootstrap</p>
-                        <a href="https://dashing-beignet-f26b23.netlify.app/" class="btn btn-primary">Visita la Página completa</a>
+                        <a href="https://dashing-beignet-f26b23.netlify.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Visita la Página completa</a>
                     </div>
                 </div>
             </div>
@@ -80,7 +104,7 @@
                         <h5 class="card-title">Pagina JVAccesoVIP</h5>
                         <p class="card-text">Breve descripción del cuarto proyecto.</p>
                         <p><strong>Tecnologías:</strong> Listado de tecnologías usadas</p>
-                        <a href="https://rad-llama-89528e.netlify.app/" class="btn btn-primary">Visita la Página completa</a>
+                        <a href="https://rad-llama-89528e.netlify.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Visita la Página completa</a>
                     </div>
                 </div>
             </div>
@@ -100,12 +124,19 @@
           </div>
           <div class="modal-body">
               <!-- Contenido del modal -->
-              <p>Aplicacion web "Viaja Con Amigos"</p>
-              <h5>El proyecto es una página web interactiva que permite a los usuarios generar tablas de multiplicar de un número específico. 
-                El tipo de software es una aplicación web basada en HTML, CSS y JavaScript. 
-                El propósito de esta aplicación es brindar a los usuarios una manera sencilla y visual de generar y ver 
-                tablas de multiplicar de un número que pueden ingresar en un campo de entrada.</h5>
-          </div>
+            <p>Aplicación "Viaja con amigos"
+              "Viaja con amigos" es una aplicación móvil destinada a los estudiantes de la Universidad Tecnológica de Puebla (UTP). La aplicación facilita el transporte compartido entre alumnos, permitiendo a aquellos que tienen coche, moto u otro medio de transporte compartir gastos y reducir la posibilidad de llegar tarde a clases. Además, la app fomenta la convivencia entre estudiantes durante los trayectos.
+              
+              <ul>Tecnologías utilizadas:</ul>
+              <ul> <li> Dart y Flutter para el desarrollo de la aplicación móvil.  </li></ul>
+              <ul><li>Firebase para la gestión de datos en la nube.</li></ul>
+              <ul><li>Android Studio como entorno de desarrollo.</li></ul>
+              Desarrollé una página web asociada a la aplicación, donde los usuarios pueden consultar los términos y condiciones, así como la política de privacidad. Puedes visitar la página aquí: 
+              <a href="https://helpful-gaufre-b11445.netlify.app/">Sitio web oficial.</a>
+              Lamentablemente, la aplicación nunca llegó a lanzarse en la Google Play Store debido a costos que no pude solventar en ese momento. A pesar de ello, la aplicación se mantiene como un prototipo, con la intención de lanzarla de manera funcional en el futuro, disponible para descarga.
+              
+              </p>   
+            </div>
           <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
           </div>
@@ -114,6 +145,27 @@
 </div>
 
 
+<div class="modal fade" id="segundomodal" tabindex="-1" aria-labelledby="segundomodalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="segundomodalLabel">Página Panther Shop</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <!-- Contenido del modal -->
+              <p>Página Panther Shop es una tienda en línea diseñada para la venta de artículos deportivos. Esta aplicación web fue desarrollada utilizando HTML, CSS y JavaScript, con el soporte del framework Bootstrap para ofrecer una interfaz atractiva y fácil de usar. Además, se implementó PHP y MySQL para manejar la lógica del servidor y la base de datos.</p>
+              <p>El objetivo principal de la página es proporcionar a los usuarios una plataforma en la que puedan explorar y adquirir productos deportivos, como playeras, shorts, calcetas, tenis, guantes, balones, y más, todo desde la comodidad de su hogar.</p>
+              
+            </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+      </div>
+  </div>
+</div>
 <!--Fin de modales-->
 
 
@@ -263,41 +315,7 @@
 
   <div class="row">
 
-    <div class="col-md-4 mb-4">
-      <div class="card">
-        <img src="imagenes/Viaja.png" class="card-img-top" alt="Proyecto 1" data-toggle="modal" data-target="#modal1">
-        <div class="card-body">
-          <h5 class="card-title">Aplicacion web "Viaja Con Amigos"</h5>
-          <p class="card-text">El proyecto es una página web interactiva que permite a los usuarios generar tablas de multiplicar de un número específico. 
-            El tipo de software es una aplicación web basada en HTML, CSS y JavaScript. El propósito de esta aplicación es brindar a los usuarios una manera sencilla y visual de generar y ver tablas de 
-            multiplicar de un número que pueden ingresar en un campo de entrada. 
-            <p class="card-text"><strong>Tecnologías de la Aplicacion:</strong> Dart, Flutter, FireBase, Android Studio</p>
-            <p style="text-align: center;">
-              <a href="https://helpful-gaufre-b11445.netlify.app/" style="color: #007bff; text-decoration: none; font-weight: bold;">Visita la Página completa</a>
-            </p>
-            
-        </div>
-      </div>
-    </div>
 
-    <div class="col-md-4 mb-4">
-      <div class="card">
-        <img src="imagenes/Pagina.PNG" class="card-img-top" alt="Proyecto 2" data-toggle="modal" data-target="#modal2">
-        <div class="card-body">
-          <h5 class="card-title">Página Panther Shop</h5>
-          <p class="card-text">Se trata de una tienda en línea que vende artículos deportivos. 
-            El tipo de software es una aplicación web construida utilizando HTML, CSS y JavaScript, 
-            junto con el framework Bootstrap para mejorar el diseño y la experiencia del usuario. El propósito de la aplicación es ofrecer a los usuarios una 
-            plataforma en la que puedan explorar y comprar productos relacionados con deportes, como playeras, shorts, calcetas, tenis, guantes, balones y más.</p>
-            
-          <p class="card-text"><strong>Tecnologías:</strong> HTML, CSS, JavaScript, Bootstrap, PHP, MySQL </p>
-          <p style="text-align: center;">
-            <a href="https://65a486221e60c1dea7297b3b--creative-biscuit-a0a6a0.netlify.app/" style="color: #007bff; text-decoration: none; font-weight: bold;">Visita la Página completa</a>
-          </p>
-          
-        </div>
-      </div>
-    </div>
 
     <div class="col-md-4 mb-4">
       <div class="card">
@@ -322,26 +340,7 @@
 </section>
 
 <!-- Modales para las imágenes -->
-<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1Label" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="imagenes/Viaja.png" class="img-fluid" alt="Proyecto 1">
-      </div>
-    </div>
-  </div>
-</div>
 
-
-<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2Label" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="Pagina.PNG" class="img-fluid" alt="Proyecto 2">
-      </div>
-    </div>
-  </div>
-</div>
 
 <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal3Label" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-lg">
@@ -353,258 +352,187 @@
   </div>
 </div>
 
-<!-- Segunda seccion de portafolio-->
-<section id="portfolio" class="container mt-5">
-  <h2 class="text-center mb-4" style="font-family: Arial, sans-serif; color: #333; font-weight: bold; text-transform: uppercase;">-Certificados-</h2>
-<br>
-<hr>
-
-  <div class="row">
-    <div class="col-md-4 mb-4">
-      <div class="card">
-        <img src="imagenes/Jonathan Vega.jpg" class="card-img-top" alt="Proyecto 4" data-toggle="modal" data-target="#modal4">
-        <div class="card-body">
-          <h5 class="card-title">Certificado de Develoteca</h5>
-          <p class="card-text">
-            Este certificado acredita que he completado el curso <mark>"Construye páginas HTML usando Bootstrap"</mark> de Developeca. 
-            El curso me enseñó los fundamentos de HTML y Bootstrap, y me capacitó para usar Bootstrap para crear sitios web atractivos y funcionales.
-          </p>
-          
-          <div class="card-text">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item"><strong>Curso:</strong> Construye páginas HTML usando Bootstrap</li>
-              <li class="list-group-item"><strong>Institución:</strong> Develoteca</li>
-              <li class="list-group-item"><strong>Fecha de finalización:</strong> 18/08/2023</li>
-              <li class="list-group-item"><strong>Habilidades adquiridas:</strong></li>
-                <ol>
-                  <ul>Fundamentos de HTML</ul>
-                  <ul>Uso de Bootstrap para crear sitios web</ul>
-                  <ul>Diseño web</ul>
-                  <ul>Desarrollo web</ul>
-              </ol>           
-            </ul>
-          </div>
-              <br>
-
-          <p style="text-align: center;">
-            <a href="https://docs.google.com/presentation/d/18caOElu8U0bDkGSlt1xWqooNWA7_FohXMG8obvMuN00/edit#slide=id.p" 
-            style="color: #007bff; text-decoration: none; font-weight: bold;">Ver Foto</a>
-          </p>
-          
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-4 mb-4">
-      <div class="card">
-        <img src="imagenes/certif.jpg" class="card-img-top" alt="Proyecto 5" data-toggle="modal" data-target="#modal5">
-        <div class="card-body">
-          <h5 class="card-title">Certificado de mecanografía</h5>
-          <div class="card-text" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 1.6;">
-            <p>
-              Este certificado acredita que he completado una prueba de mecanografía en Ratatype, alcanzando una velocidad de 28 ppm (palabras por minuto) con una precisión del 97,2%. La prueba se realizó en inglés con un diseño de teclado QWERTY.
-            </p>
-            <div class="details">
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item"><strong>Prueba:</strong> Test de mecanografía básica</li>
-                <li class="list-group-item"><strong>Institución:</strong> Ratatype</li>
-                <li class="list-group-item"><strong>Fecha de realización:</strong> 20 de octubre de 2023</li>
-                <li class="list-group-item"><strong>Velocidad:</strong> 28 ppm</li>
-                <li class="list-group-item"><strong>Precisión:</strong> 97,2%</li>
-                <li class="list-group-item"><strong>Idioma:</strong> Inglés</li>
-                <li class="list-group-item"><strong>Diseño de teclado:</strong> QWERTY</li>
-              </ul>
-            </div>
-          </div>
-          <br>
-          <p style="text-align: center;"><a href="https://www.ratatype.es/u6492320/certificate/en_new/"
-            style="color: #007bff; text-decoration: none; font-weight: bold;">Visíta la Página completa</a></p>
-          
-          
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-4 mb-4">
-      <div class="card">
-        <img src="#" class="card-img-top" alt="Proyecto 6" data-toggle="modal" data-target="#modal6">
-        <div class="card-body">
-          <h5 class="card-title">Certificado </h5>
-          <p class="card-text"> </p>
-            <p><a href="#">Visíta la Página completa</a></p>
-          
-          
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- Modales para las imágenes 2parte -->
-<div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modal4Label" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="imagenes/Jonathan Vega.jpg" class="img-fluid" alt="Proyecto 4">
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="modal5Label" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="imagenes/certif.jpg" class="img-fluid" alt="Proyecto 5">
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="modal6Label" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="#" class="img-fluid" alt="Proyecto 6">
-      </div>
-    </div>
-  </div>
-</div>
-
-
 
 
 <!-- tercera google parte seccion de portafolio-->
-<!--
-<div class=" bg-primary text-white">
-  <h2 class="text-center mb-4">Certificados del curso de Google Cloud Skills Boost</h2>
-  <h4 class="text-center">Fundamentos de la computación en la nube de Google</h4>
-</div>--> 
-
-<section id="portfolio" class="container mt-5 ">
+<section id="portfolio" class="container mt-5">
   <h2 class="text-center mb-4" style="font-family: Arial, sans-serif; color: #333; font-weight: bold; text-transform: uppercase;">Certificados del curso de Google Cloud Skills Boost</h2>
   <h4 class="text-center" style="font-family: Arial, sans-serif; color: #555; font-weight: bold;">Fundamentos de la computación en la nube de Google</h4>
 
   <br>
   <br>
   <div class="row">
-    <div class="col-md-4 mb-4">
+    <div class="col-md-3 mb-4">
       <div class="card">
         <img src="imagenes/Cloud Computing Fundamentals 01.png" class="card-img-top" alt="Proyecto 10" data-toggle="modal" data-target="#modal10">
         <div class="card-body">
           <h5 class="card-title text-center">Google Cloud Computing Foundations: Cloud Computing Fundamentals</h5>
-          <p class="card-text">Google Cloud Skills Boost Es un curso que por medio de la materia de <strong>"Base de Datos para cómputo en la nube"</strong> 
-            nos inscribimos para poder ampliar nuestros conocimientos en la nube de google
-            <p class="card-text"><strong>Objetivos de esta insignia</strong> 
-              <ul>
-                <li>
-                  Analice qué es la nube y por qué es un elemento de cambio tecnológico y empresarial.
-                </li>
-                <li>
-                  Describe las diferentes formas en que un usuario puede interactuar con Google Cloud.
-                </li>
-                <li>
-                  Descubra las diferentes opciones de computación en Google Cloud.
-                </li>
-              </ul>
-              </p>  
-                <p style="text-align: center;">
-              <a href="https://www.cloudskillsboost.google/public_profiles/744a0885-591f-4e09-9cdc-2b6eed5ef359/badges/6915454"
-              style="color: #007bff; text-decoration: none; font-weight: bold;">Visíta mi inginia de Google Cloud</a></p>
+          <p style="text-align: center;">
+            <a href="https://www.cloudskillsboost.google/public_profiles/744a0885-591f-4e09-9cdc-2b6eed5ef359/badges/6915454"
+               style="color: #007bff; text-decoration: none; font-weight: bold;">Visita mi insignia de Google Cloud</a>
+          </p>
+          <button type="button" data-toggle="modal" data-target="#google" class="btn btn-secondary mt-3">Leer más</button>
+
         </div>
       </div>
     </div>
 
-    <div class="col-md-4 mb-4">
+    <div class="col-md-3 mb-4">
       <div class="card">
         <img src="imagenes/Infrastructure in Google Cloud 2.png" class="card-img-top" alt="Proyecto 11" data-toggle="modal" data-target="#modal11">
         <div class="card-body">
           <h5 class="card-title text-center">Google Cloud Computing Foundations: Infrastructure in Google Cloud</h5>
-          <div class="card-text" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 1.6;">
-            <p>
-              The Google Cloud Computing Foundations courses are for individuals with little to no background or experience in cloud computing. They provide an overview of concepts central to cloud basics, big data, and machine learning, and where and how Google Cloud fits in. By the end of the series of courses, learners will be able to articulate these concepts and demonstrate some hands-on skills. The courses should be completed in the following order: 
-            </p>
-            <ol>
-              <li>Google Cloud Computing Foundations: Cloud Computing Fundamentals</li>
-              <li>Google Cloud Computing Foundations: Infrastructure in Google Cloud</li>
-              <li>Google Cloud Computing Foundations: Networking and Security in Google Cloud</li>
-              <li>Google Cloud Computing Foundations: Data, ML, and AI in Google Cloud</li>
-            </ol>
-            <p>Objetivos</p>
-            <ul>
-              <li>Implement a variety of structured and unstructured storage models.</li>
-              <li>Discuss the different application managed service options in the cloud.</li>
-              <li>Outline how security in the cloud is administered in Google Cloud.</li>
-            </ul>
-          </div>
           
           <p style="text-align: center;">
-              <a href="https://www.cloudskillsboost.google/public_profiles/744a0885-591f-4e09-9cdc-2b6eed5ef359/badges/7859854"
-              style="color: #007bff; text-decoration: none; font-weight: bold;">Visíta mi inginia de Google Cloud</a></p>
-          
+            <a href="https://www.cloudskillsboost.google/public_profiles/744a0885-591f-4e09-9cdc-2b6eed5ef359/badges/7859854"
+               style="color: #007bff; text-decoration: none; font-weight: bold;">Visita mi insignia de Google Cloud</a>
+          </p>
+          <button type="button" data-toggle="modal" data-target="#googledos" class="btn btn-secondary mt-3">Leer más</button>
+
         </div>
       </div>
     </div>
 
-    <div class="col-md-4 mb-4">
+    <div class="col-md-3 mb-4">
       <div class="card">
         <img src="imagenes/Networking & Security in Google Cloud 3.png" class="card-img-top" alt="Proyecto 12" data-toggle="modal" data-target="#modal12">
         <div class="card-body">
           <h5 class="card-title text-center">Google Cloud Computing Foundations: Networking & Security in Google Cloud</h5>
-          <p class="card-text">Erar el diseño y la for</p>
-            <p><a href="h">Visíta mi inginia de Google Cloud</a></p>
-          
-        </div>
-      </div>
-    </div>
-    <!--Parte de abajo de google-->
-    <div class="col-md-4 mb-4">
-      <div class="card">
-        <img src="im" class="card-img-top" alt="Proyecto 13" data-toggle="modal" data-target="#modal13">
-        <div class="card-body">
-          <h5 class="card-title text-center"> Google Cloud Computing Foundations: Data, ML, and AI in Google Cloud</h5>
-          <p class="card-text">Erar el diseño y la for</p>
-            <p><a href="h">Visíta mi inginia de Google Cloud</a></p>
-          
+          <p style="text-align: center;">
+            <a href="https://www.cloudskillsboost.google/public_profiles/744a0885-591f-4e09-9cdc-2b6eed5ef359/badges/7859854"
+               style="color: #007bff; text-decoration: none; font-weight: bold;">Visita mi insignia de Google Cloud</a>
+          </p>
+          <button type="button" data-toggle="modal" data-target="#googletres" class="btn btn-secondary mt-3">Leer más</button>
+
         </div>
       </div>
     </div>
 
-    <div class="col-md-4 mb-4">
+    <div class="col-md-3 mb-4">
       <div class="card">
-        <img src="imagenes/Create and Manage Cloud Resource 05.png" class="card-img-top" alt="Proyecto 14" data-toggle="modal" data-target="#modal14">
+        <img src="imagenes/Create and Manage Cloud Resource 05.png" class="card-img-top" alt="Proyecto 13" data-toggle="modal" data-target="#modal13">
         <div class="card-body">
           <h5 class="card-title text-center">Getting Started - Create and Manage Cloud Resource</h5>
-          <p class="card-text">Adquirirá experiencia práctica en las herramientas y los servicios fundamentales de Google Cloud. 
-            Getting Started - Create and Manage Cloud Resource es la primera Quest recomendada para el estudiante de Google Cloud. 
-            Ingresará con poco o ningún conocimiento previo sobre la nube, y saldrá con experiencia práctica que podrá aplicar a su primer proyecto de Google Cloud. 
-            Desde la escritura de comandos de Cloud Shell y la implementación de su primera máquina virtual hasta la ejecución de aplicaciones en Kubernetes Engine o mediante el balanceo de cargas, 
-            Getting Started - Create and Manage Cloud Resources es una excelente introducción a las funciones básicas de la plataforma.</p>
-            <p style="text-align: center;">
-              <a href="https://www.cloudskillsboost.google/public_profiles/744a0885-591f-4e09-9cdc-2b6eed5ef359/badges/7909220"
-              style="color: #007bff; text-decoration: none; font-weight: bold;">Visíta mi inginia de Google Cloud</a></p>
-          
+          <p class="card-text">Adquiere experiencia práctica con herramientas y servicios fundamentales de Google Cloud. Este curso es una excelente introducción a las funciones básicas de la plataforma.</p>
+          <p style="text-align: center;">
+            <a href="https://www.cloudskillsboost.google/public_profiles/744a0885-591f-4e09-9cdc-2b6eed5ef359/badges/7909220"
+               style="color: #007bff; text-decoration: none; font-weight: bold;">Visita mi insignia de Google Cloud</a>
+          </p>
+          <button type="button" data-toggle="modal" data-target="#googlecuatro" class="btn btn-secondary mt-3">Leer más</button>
+
         </div>
       </div>
     </div>
 
-    <div class="col-md-4 mb-4">
-      <div class="card">
-        <img src=" " class="card-img-top" alt="Proyecto 15" data-toggle="modal" data-target="#modal15">
-        <div class="card-body">
-          <h5 class="card-title text-center">Perform Foundational Infrastructure Tasks in Google Cloud</h5>
-          <p class="card-text">ss</p>
-            <p><a href="h">Visíta mi inginia de Google Cloud</a></p>
-          
-        </div>
-      </div>
-    </div>
-    <!--Final de parte de abajo de google-->
+    <!-- Agrega más tarjetas aquí si es necesario -->
+
   </div>
 </section>
 
-<!-- Modales para las imágenes 4parte GOOGLE -->
+
+
+            
+                <!-- Modales para GOOGLE -->
+<div class="modal fade" id="google" tabindex="-1" aria-labelledby="primermodalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="primermodalLabel">Computing Fundamentals</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <!-- Contenido del modal -->
+              <p class="card-text">Google Cloud Skills Boost es un curso que, a través de la materia <strong>"Base de Datos para cómputo en la nube"</strong>, amplía los conocimientos en la nube de Google.</p>
+              <p class="card-text"><strong>Objetivos de esta insignia:</strong></p>
+              <ul>
+                <li>Analizar qué es la nube y su impacto tecnológico y empresarial.</li>
+                <li>Describir las formas en que se puede interactuar con Google Cloud.</li>
+                <li>Descubrir las opciones de computación en Google Cloud.</li>
+              </ul>
+            </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="modal fade" id="googledos" tabindex="-1" aria-labelledby="primermodalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="primermodalLabel">Infrastructure in Google Cloud</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <!-- Contenido del modal -->
+              <div class="card-text" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 1.6;">
+                <p>The Google Cloud Computing Foundations courses provide an overview of cloud concepts, big data, and machine learning, showing how Google Cloud fits in.</p>
+                <p>Objectives:</p>
+                <ul>
+                  <li>Implement various structured and unstructured storage models.</li>
+                  <li>Discuss different application managed service options in the cloud.</li>
+                  <li>Outline how security in the cloud is managed in Google Cloud.</li>
+                </ul>
+              </div>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="modal fade" id="googletres" tabindex="-1" aria-labelledby="primermodalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="primermodalLabel">Networking & Security in Google Cloud</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+          <p class="card-text">Conocerás el diseño y la implementación de redes seguras en Google Cloud.</p>
+             
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="modal fade" id="googlecuatro" tabindex="-1" aria-labelledby="primermodalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="primermodalLabel">Infrastructure in Google Cloud</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+             
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<!-- Modales para las imágenes GOOGLE -->
 <div class="modal fade" id="modal10" tabindex="-1" role="dialog" aria-labelledby="modal10Label" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-lg">
     <div class="modal-content">

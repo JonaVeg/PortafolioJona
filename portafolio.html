@@ -329,6 +329,7 @@
             </ul>
           </div>
           
+
           <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
           </div>
@@ -642,12 +643,156 @@
 
   
   
+  <br><br><br>
+  
 
 
+  
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        margin: 0;
+        padding: 0;
+        color: #333;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 40px auto;
+        padding: 0 20px;
+    }
+    .section-title {
+        text-align: center;
+        font-size: 2.5em;
+        color: #333;
+        margin-bottom: 15px;
+    }
+    .section-description {
+        text-align: center;
+        font-size: 1.1em;
+        color: #555;
+        margin-bottom: 30px;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .course-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+    .course-card {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease-in-out;
+    }
+    .course-card:hover {
+        transform: scale(1.02);
+    }
+    .course-image {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+    }
+    .course-content {
+        padding: 20px;
+    }
+    .course-title {
+        font-size: 1.4em;
+        color: #333;
+        margin-bottom: 10px;
+    }
+    .course-details {
+        color: #666;
+        font-size: 0.95em;
+        margin-bottom: 8px;
+    }
+    .grade {
+        color: #28a745;
+        font-weight: bold;
+    }
+    .certificate-link {
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        background-color: #007bff;
+        padding: 10px 15px;
+        border-radius: 4px;
+        font-weight: bold;
+        transition: background-color 0.3s;
+    }
+    .certificate-link:hover {
+        background-color: #0056b3;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1 class="section-title">Coursera</h1>
+    <p class="section-description">
+        Coursera es una plataforma educativa donde he completado varios cursos en temas como tecnología, negocios y desarrollo personal. A continuación, encontrarás algunos de los proyectos y conocimientos que he adquirido a través de estos cursos.
+    </p>
 
+    <div class="course-grid">
+        <!-- Tarjeta de curso 1 -->
+        <div class="course-card">
+            <img src="imagenes/Support.png" alt="Certificado de Técnicas de Impacto Profesional" class="course-image">
+            <div class="course-content">
+                <h2 class="course-title">Curso: Technical Support Fundamentals</h2>
+                <p class="course-details">Completado el: 21 de abril de 2024</p>
+                <p class="course-details">Calificación obtenida: <span class="grade">96.57%</span></p>
+                <a href="https://coursera.org/share/a10f039e2b7cfd6fcbebf63904075138" target="_blank" class="certificate-link">Ver Certificado</a>
+            </div>
+        </div>
 
+        <!-- Tarjeta de curso 2 -->
+        <div class="course-card">
+            <img src="imagenes/BITS.png" class="course-image">
+            <div class="course-content">
+                <h2 class="course-title">Curso: The Bits and Bytes of Computer Networking</h2>
+                <p class="course-details">Completado el: 9 de mayo de 2024</p>
+                <p class="course-details">Calificación obtenida: <span class="grade">91.50%</span></p>
+                <a href="https://coursera.org/share/985edf5fba677a724c2e0a7ff6999e6c" target="_blank" class="certificate-link">Ver Certificado</a>
+            </div>
+        </div>
 
+        <!-- Tarjeta de curso 3 -->
+        <div class="course-card">
+            <img src="imagenes/Operating.png" class="course-image">
+            <div class="course-content">
+                <h2 class="course-title">Curso: Operating Systems and You: Becoming a Power User</h2>
+                <p class="course-details">Completado el: 30 de mayo de 2024</p>
+                <p class="course-details">Calificación obtenida: <span class="grade">97.92%</span></p>
+                <a href="https://coursera.org/share/985edf5fba677a724c2e0a7ff6999e6c" target="_blank" class="certificate-link">Ver Certificado</a>
+            </div>
+        </div>
 
+        <!-- Tarjeta de curso 4 -->
+        <div class="course-card">
+            <img src="imagenes/Systems.png" class="course-image">
+            <div class="course-content">
+                <h2 class="course-title">Curso: System Administration and IT Infrastructure Services</h2>
+                <p class="course-details">Completado el: 7 de junio de 2024</p>
+                <p class="course-details">Calificación obtenida: <span class="grade">90.24%</span></p>
+                <a href="https://coursera.org/share/c6d092b67516e7468c7ccc290f0dbac8" target="_blank" class="certificate-link">Ver Certificado</a>
+            </div>
+        </div>
+
+        <!-- Tarjeta de curso 5 -->
+        <div class="course-card">
+            <img src="imagenes/Securiti TI.png" class="course-image">
+            <div class="course-content">
+                <h2 class="course-title">Curso: IT Security: Defense against the digital dark arts</h2>
+                <p class="course-details">Completado el: 16 de junio de 2024</p>
+                <p class="course-details">Calificación obtenida: <span class="grade">91.77%</span></p>
+                <a href="https://coursera.org/share/92ecc75616df648357c690f528c5bf5a" target="_blank" class="certificate-link">Ver Certificado</a>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
@@ -1057,6 +1202,130 @@
     </div>
   </div>
 </div>
+
+<style>
+  /* Estilos generales para la sección HP Life */
+#hp-life {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.portfolio-section {
+  margin-bottom: 60px;
+}
+
+/* Título de la sección */
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Descripción */
+.section-description {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 30px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Contenedor de las tarjetas de los cursos */
+.course-card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Estilos para las tarjetas de cursos */
+.course-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: left;
+}
+
+.course-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.course-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #222;
+  margin-top: 15px;
+}
+
+.course-description {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+.course-link {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #007BFF;
+  transition: color 0.3s;
+}
+
+.course-link:hover {
+  color: #0056b3;
+}
+
+</style>
+
+<section id="hp-life" class="portfolio-section">
+  <h2 class="section-title">HP Life</h2>
+  <p class="section-description">
+      HP Life es una plataforma educativa donde he completado varios cursos sobre habilidades digitales, emprendimiento y productividad. A continuación, encontrarás algunos de los proyectos y aprendizajes que he adquirido.
+  </p>
+  
+  <div class="course-card-container">
+      <div class="course-card">
+          <img src="imagenes/Mentalidad.png" alt="Mentalidad Exitosa" class="course-image">
+          <h3 class="course-title">Mentalidad Exitosa</h3>
+          
+          <p class="course-description">
+            Descubra qué es una mentalidad de éxito, cómo desarrollarla y de qué forma le ayudará a crear un futuro exitoso.
+        </p>
+          <a href="https://www.life-global.org/certificate/706a0cc4-3578-4f3c-a09c-24907671825e" class="course-link">Ver más</a>
+      </div>
+      
+      <div class="course-card">
+          <img src="imagenes/Data.png" alt="Ciencia y Análisis de Datos" class="course-image">
+          <h3 class="course-title">Ciencia y Análisis de Datos</h3>
+          <p class="course-description">
+            Descubra cómo las empresas digitales aprovechan los datos para la innovación, la toma de decisiones, el desarrollo de productos y la creación de relaciones más sólidas con los clientes.
+          </p>
+          <a href="https://www.life-global.org/certificate/add5e62a-4ef2-4ab1-ada1-7936512c2b5f" class="course-link">Ver más</a>
+      </div>
+
+      <div class="course-card">
+        <img src="imagenes/Ciberseguridad.png" alt="Introducción al Conocimiento de la Ciberseguridad" class="course-image">
+        <h3 class="course-title">Introducción al Conocimiento de la Ciberseguridad</h3>
+        <p class="course-description">
+          Descubra cómo detectar amenazas de ciberseguridad frecuentes y cómo defenderse de ellas para proteger su información digital.
+        </p>
+        <a href="https://www.life-global.org/certificate/af2f90e9-ed28-437b-b014-a8bf1452dad1" class="course-link">Ver más</a>
+    </div>
+
+      <!-- Agregar más cursos según sea necesario -->
+  </div>
+</section>
+
+
+
 
 
 
